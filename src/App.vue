@@ -20,9 +20,11 @@ body{
   background-image: url('./assets/home2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -500px;
+   background-position-y: 200px;
   height: 100vh;
-
+  @media (min-width:961px){
+      background-position-y: -500px;
+  }
 }
 
 #nav {
