@@ -1,14 +1,15 @@
 <template>
   <div class="hello">
-    <h1>Hi, I am{{ msg }}</h1>
-
+    <img src="../assets/sandeep-saroha-192x192.png" alt="Sandeep Saroha" />
+    <h1>Hello, I’m Sandeep and that is my son in the background. I’m a Tech Lead for HCL.</h1>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'Sandeep',
+  name: 'About',
   props: {
     msg: String,
   },
